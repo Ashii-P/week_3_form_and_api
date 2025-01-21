@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js" defer></script>
+    <title>API with form</title>
+  </head>
+  <body>
+    <form id="form">
+      <label for="question">Enter your name for your IP address:</label>
+      <input id="question" name="question" type="text" placeholder="hello" />
+      <button type="submit">Search</button>
+    </form>
+    <p id="holdUi"></p>
+    <form id="form2">
+      <label for="query">Enter your DOB for a joke:</label>
+      <input id="query" name="query" type="date" placeholder="00,00,00" />
+      <button type="submit">Enter</button>
+    </form>
+    <h4 id="jokeSetup"></h4>
+    <h3 id="jokePunchline"></h3>
+  </body>
+</html>
